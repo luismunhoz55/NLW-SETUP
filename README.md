@@ -1,0 +1,1 @@
+Um projeto feito com react e um backend feito com fastify + prisma, seguido por tutoriais da Rocketseat
