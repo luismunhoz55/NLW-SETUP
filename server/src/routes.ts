@@ -5,6 +5,10 @@ import dayjs from 'dayjs'
 
 export async function appRoutes(app: FastifyInstance) {
 
+  app.get('/test', async (request, reply) => {
+    return await prisma.habit.findMany()
+  })
+
   app.post('/habits', async (request, reply) => {
 
     // criar o tipo que o body da requisição deve ser

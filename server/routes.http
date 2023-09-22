@@ -1,10 +1,15 @@
+# @name test
+GET http://localhost:3000/test 
+
+###
+
 # @name criar_habito
 POST http://localhost:3000/habits
 content-type: application/json
 
 {
-    "title": "Exercitar",
-    "weekDays": [0, 1, 2]
+    "title": "Estudar",
+    "weekDays": [2, 3, 4]
 }
 
 ###
