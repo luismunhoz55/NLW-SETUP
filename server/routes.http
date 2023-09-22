@@ -6,3 +6,9 @@ content-type: application/json
     "title": "Exercitar",
     "weekDays": [0, 1, 2]
 }
+
+###
+
+# @name get_day
+GET http://localhost:3000/day?date=2023-01-02T03%3A00%3A00.000z
+
