@@ -8,12 +8,22 @@ POST http://localhost:3000/habits
 content-type: application/json
 
 {
-    "title": "Estudar",
-    "weekDays": [2, 3, 4]
+    "title": "Ler",
+    "weekDays": [4]
 }
 
 ###
 
 # @name get_day
-GET http://localhost:3000/day?date=2023-01-02T03%3A00%3A00.000z
+GET http://localhost:3000/day?date=2023-09-25T03%3A00%3A00.000z
+
+###
+
+# @name toggle_habit
+PATCH http://localhost:3000/habits/2cb784a5-62f2-4462-91d7-4aa49c9421fc/toggle
+
+###
+
+# @name summary
+GET http://localhost:3000/summary
 

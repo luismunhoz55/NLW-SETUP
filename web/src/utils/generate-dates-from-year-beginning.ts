@@ -7,7 +7,7 @@ export function generateDatesFromYearBeginning() {
     let dates = []
     let compareDate = firstDayOfTheYear
 
-    while (dates.length < 100) {
+    while (dates.length < 112) {
         dates.push(compareDate.toDate())
         compareDate = compareDate.add(1, 'day') // adicionando 1 dia a cada iteração do while
     }
